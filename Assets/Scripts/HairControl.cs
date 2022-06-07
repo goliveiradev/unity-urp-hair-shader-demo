@@ -25,32 +25,39 @@ public class HairControl : MonoBehaviour
     {
         if (Input.GetKeyUp(KeyCode.Alpha1))
         {
-            ChangeHairColor("#bad95a", "#64b645", "#398a7f", "#384e80", "#3b325c");
+            ChangeHairColor("#929292", "#777777", "#575757", "#373737");
         }
         if (Input.GetKeyUp(KeyCode.Alpha2))
         {
-            ChangeHairColor("#929292", "#777777", "#575757", "#373737", "#252525");
+            ChangeHairColor("#fdffdc", "#f6c1a0", "#e0706a", "#a7465c");
         }
         if (Input.GetKeyUp(KeyCode.Alpha3))
         {
-            ChangeHairColor("#fd7ba5", "#eb4e81", "#b83660", "#802d72", "#46215e");
+            ChangeHairColor("#fd7ba5", "#eb4e81", "#b83660", "#802d72");
+        }
+        //Default Hair Color:
+        if (Input.GetKeyUp(KeyCode.Alpha0))
+        {
+            material.SetColor("_NewHairColor1", material.GetColor("_DefaultHairColor1"));
+            material.SetColor("_NewHairColor2", material.GetColor("_DefaultHairColor2"));
+            material.SetColor("_NewHairColor3", material.GetColor("_DefaultHairColor3"));
+            material.SetColor("_NewHairColor4", material.GetColor("_DefaultHairColor4"));
+            Debug.Log("Changed hair colors to: default color.");
         }
     }
 
-    void ChangeHairColor(string _color1, string _color2, string _color3, string _color4, string _color5)
+    void ChangeHairColor(string _color1, string _color2, string _color3, string _color4)
     {
         ColorUtility.TryParseHtmlString(_color1, out color1);
         ColorUtility.TryParseHtmlString(_color2, out color2);
         ColorUtility.TryParseHtmlString(_color3, out color3);
         ColorUtility.TryParseHtmlString(_color4, out color4);
-        ColorUtility.TryParseHtmlString(_color5, out color5);
 
-
-        Debug.Log("Mudei de cor");
-        material.SetColor("Color_1", color1);
-        material.SetColor("Color_2", color2);
-        material.SetColor("Color_3", color3);
-        material.SetColor("Color_4", color4);
-        material.SetColor("Color_5", color5);
+        material.SetColor("_NewHairColor1", color1);
+        material.SetColor("_NewHairColor2", color2);
+        material.SetColor("_NewHairColor3", color3);
+        material.SetColor("_NewHairColor4", color4);
+        Debug.Log("Changed hair colors to: color1: " + _color1 + " | color2: "
+            + _color2 + " | color3: " + _color3 + " | color4: " + _color4);
     }
 }
