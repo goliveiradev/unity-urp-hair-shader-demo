@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e4fcf94046a6598499b0dcbbd3ca1a6d
+guid: c099156a29ba3574294ec7cba5fce037
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -66,8 +66,8 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
+    maxTextureSize: 256
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -104,13 +104,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: '[recolor] hero_fishing_rod_0'
+      name: heroine_0
       rect:
         serializedVersion: 2
-        x: 37
-        y: 697
+        x: 1
+        y: 157
         width: 23
-        height: 53
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,81 +118,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d2b47051cac77e409e167f6367d96d3
-      internalID: 1403165813
+      spriteID: 8f31c4a131f49ec4dba7507f3278fa40
+      internalID: 1971034537
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[recolor] hero_fishing_rod_1'
+      name: heroine_1
       rect:
         serializedVersion: 2
-        x: 133
-        y: 697
-        width: 23
-        height: 57
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d945da2e62c024f4096f3d8a8945f36b
-      internalID: 2098239231
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: '[recolor] hero_fishing_rod_2'
-      rect:
-        serializedVersion: 2
-        x: 229
-        y: 697
-        width: 37
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 290e814be3c08224ca9135fe25c5b7b3
-      internalID: 932087962
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: '[recolor] hero_fishing_rod_3'
-      rect:
-        serializedVersion: 2
-        x: 311
-        y: 697
-        width: 37
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5d06a4d4330ec7e46b8c5191ed3741a6
-      internalID: -45702910
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: '[recolor] hero_fishing_rod_4'
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 601
+        x: 26
+        y: 157
         width: 23
         height: 48
       alignment: 0
@@ -202,18 +139,375 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79229910de3e9464e967b2350bd936a6
-      internalID: 516106976
+      spriteID: 3a8ab8e724d0f754692352338163743d
+      internalID: 2035989619
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[recolor] hero_fishing_rod_5'
+      name: heroine_2
       rect:
         serializedVersion: 2
-        x: 133
-        y: 601
+        x: 51
+        y: 157
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e91ce951cf1154c9d91d03ccd4005f
+      internalID: 1009687942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine_3
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 157
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b70ac28df32e3c40b9ffc15e03ee360
+      internalID: 1082842003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine_4
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 157
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42cb523d5e8b21946b9afdf3b49383d0
+      internalID: -1112604156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine_5
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 157
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 961f27f90a9d6764d884e1cbda4b1642
+      internalID: -538058399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 105
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9261f43bd946874cbc406ac51e298cd
+      internalID: 268747040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine_7
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 105
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007eac3e523c6b042a7dde3f78847696
+      internalID: 186528992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine_8
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 105
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ff2e66291431343a44dfbbd7abf8d0
+      internalID: -570753608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine_9
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 105
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18320f864a9ff70409c87166986254f2
+      internalID: 1392447688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine_10
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 105
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab097a6f1495854eb00f1621e34714b
+      internalID: -495707537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine_11
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 105
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8bfe992d66d8d46880eca07fe7037c
+      internalID: -1834271820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 53
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6196e9ba9fd3c3d419575cf2a68d07fc
+      internalID: -1956243256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine_13
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 53
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c16253e3240a7941b6d869a23366942
+      internalID: -666964527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine_14
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 53
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35797c22520c8344eb4e975c41361b91
+      internalID: 164633296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine_15
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 53
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9655db6de4690564ea61b6f8255ce397
+      internalID: 1153734127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine_16
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 53
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb0ebcaf073e6b48aa892e233e69f12
+      internalID: 976540962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine_17
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 53
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8c3f28812c11a4b86f4b47d5dfb882
+      internalID: -1923047492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a0859598e4fd2419be900e902c5194
+      internalID: -1496806884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine_19
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1
         width: 23
         height: 49
       alignment: 0
@@ -223,144 +517,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c888c7f47c5e1014ba923bfd7729ea2d
-      internalID: 1344050387
+      spriteID: 75702c55180d8884c855aefa58e2ed9f
+      internalID: 468548499
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[recolor] hero_fishing_rod_6'
+      name: heroine_20
       rect:
         serializedVersion: 2
-        x: 229
-        y: 601
-        width: 23
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 801f0f447cd2d654eb15bbd4772e30bf
-      internalID: 141968078
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: '[recolor] hero_fishing_rod_7'
-      rect:
-        serializedVersion: 2
-        x: 325
-        y: 601
-        width: 23
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bcc2e0cb27592434a8053d757a5c7763
-      internalID: -425334192
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: '[recolor] hero_fishing_rod_8'
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 505
-        width: 24
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e155c56cb7342944cbcd0f6a955f4cac
-      internalID: -1553367432
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: '[recolor] hero_fishing_rod_9'
-      rect:
-        serializedVersion: 2
-        x: 133
-        y: 505
-        width: 23
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ef87c60cf76701b41aa7f5cf6e44900f
-      internalID: -253927566
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: '[recolor] hero_fishing_rod_10'
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 505
-        width: 44
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2fff1230fbf2ce54bbe21b270ac9f60a
-      internalID: -1707114398
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: '[recolor] hero_fishing_rod_11'
-      rect:
-        serializedVersion: 2
-        x: 325
-        y: 505
-        width: 44
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d8272452ef8934746be194f732a45171
-      internalID: 1168172570
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: '[recolor] hero_fishing_rod_12'
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 409
+        x: 51
+        y: 1
         width: 23
         height: 48
       alignment: 0
@@ -370,18 +538,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9166a9ec4e00e7b49aad1e846f0dcd54
-      internalID: 1615775042
+      spriteID: ee284c98af4eb4741be229a5f7cd4331
+      internalID: -988397290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[recolor] hero_fishing_rod_13'
+      name: heroine_21
       rect:
         serializedVersion: 2
-        x: 133
-        y: 409
+        x: 76
+        y: 1
         width: 23
         height: 48
       alignment: 0
@@ -391,20 +559,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a99d90962d4e56344a61352ce0aee884
-      internalID: -2133361318
+      spriteID: 84d600af3995c2c4fbe3207bc23539ad
+      internalID: -2054540052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[recolor] hero_fishing_rod_14'
+      name: heroine_22
       rect:
         serializedVersion: 2
-        x: 219
-        y: 409
-        width: 33
-        height: 47
+        x: 101
+        y: 1
+        width: 23
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -412,20 +580,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0df949c31399a2c4abdbc8e45945fd51
-      internalID: 1290485566
+      spriteID: 388c1144677006f46956e7078e3a4957
+      internalID: 2117822183
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[recolor] hero_fishing_rod_15'
+      name: heroine_23
       rect:
         serializedVersion: 2
-        x: 325
-        y: 409
-        width: 33
-        height: 47
+        x: 126
+        y: 1
+        width: 23
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -433,8 +601,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb6daba08d9718946a9552991719a518
-      internalID: 1598110641
+      spriteID: cbeabc510a58d784582a880803e33b42
+      internalID: -114977067
       vertices: []
       indices: 
       edges: []
@@ -442,7 +610,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 92ed6cdefe94b274c84fe8ceabbf6e77
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -450,22 +618,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      '[recolor] hero_fishing_rod_14': 1290485566
-      '[recolor] hero_fishing_rod_2': 932087962
-      '[recolor] hero_fishing_rod_11': 1168172570
-      '[recolor] hero_fishing_rod_15': 1598110641
-      '[recolor] hero_fishing_rod_3': -45702910
-      '[recolor] hero_fishing_rod_7': -425334192
-      '[recolor] hero_fishing_rod_0': 1403165813
-      '[recolor] hero_fishing_rod_13': -2133361318
-      '[recolor] hero_fishing_rod_1': 2098239231
-      '[recolor] hero_fishing_rod_9': -253927566
-      '[recolor] hero_fishing_rod_8': -1553367432
-      '[recolor] hero_fishing_rod_10': -1707114398
-      '[recolor] hero_fishing_rod_4': 516106976
-      '[recolor] hero_fishing_rod_12': 1615775042
-      '[recolor] hero_fishing_rod_5': 1344050387
-      '[recolor] hero_fishing_rod_6': 141968078
+      heroine_1: 2035989619
+      heroine_7: 186528992
+      heroine_11: -1834271820
+      heroine_4: -1112604156
+      heroine_2: 1009687942
+      heroine_18: -1496806884
+      heroine_21: -2054540052
+      heroine_15: 1153734127
+      heroine_6: 268747040
+      heroine_5: -538058399
+      heroine_22: 2117822183
+      heroine_12: -1956243256
+      heroine_10: -495707537
+      heroine_8: -570753608
+      heroine_17: -1923047492
+      heroine_14: 164633296
+      heroine_19: 468548499
+      heroine_23: -114977067
+      heroine_13: -666964527
+      heroine_3: 1082842003
+      heroine_9: 1392447688
+      heroine_0: 1971034537
+      heroine_16: 976540962
+      heroine_20: -988397290
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
