@@ -47,10 +47,6 @@ public class HairControl : MonoBehaviour
         skinColors[6] = new List<string> { "#a9c348", "#87a43b", "#7e9236", "#6a732e", "#583c26" };
         skinColors[7] = new List<string> { "#b7efff", "#81c5f4", "#72a3d1", "#6485b7", "#3e3163" };
         skinColors[8] = new List<string> { "#5799b8", "#3c76a4", "#366192", "#314d81", "#412a57" };
-
-        Debug.Log(hairColors.Length);
-        Debug.Log(skinColors.Length);
-
     }
 
     // Update is called once per frame
@@ -64,10 +60,8 @@ public class HairControl : MonoBehaviour
 
             ChangeSkinColor(skinColors[_skinIndex][0], skinColors[_skinIndex][1],
             skinColors[_skinIndex][2], skinColors[_skinIndex][3], skinColors[_skinIndex][4]);
-
-            Debug.Log("Actual skin index:" + _skinIndex);
         }
- 
+
         if (Input.GetKey(KeyCode.LeftShift) && Input.GetKeyUp(KeyCode.Q))
         {
             if (_skinIndex <= 0) return;
@@ -76,8 +70,6 @@ public class HairControl : MonoBehaviour
 
             ChangeSkinColor(skinColors[_skinIndex][0], skinColors[_skinIndex][1],
             skinColors[_skinIndex][2], skinColors[_skinIndex][3], skinColors[_skinIndex][4]);
-
-            Debug.Log("Actual skin index:" + _skinIndex);
         }
 
         if (!Input.GetKey(KeyCode.LeftShift) && Input.GetKeyUp(KeyCode.E))
@@ -88,8 +80,6 @@ public class HairControl : MonoBehaviour
 
             ChangeHairColor(hairColors[_hairIndex][0], hairColors[_hairIndex][1],
             hairColors[_hairIndex][2], hairColors[_hairIndex][3]);
-
-            Debug.Log("Actual hair index:" + _hairIndex);
         }
 
         if (!Input.GetKey(KeyCode.LeftShift) && Input.GetKeyUp(KeyCode.Q))
@@ -100,8 +90,6 @@ public class HairControl : MonoBehaviour
 
             ChangeHairColor(hairColors[_hairIndex][0], hairColors[_hairIndex][1],
             hairColors[_hairIndex][2], hairColors[_hairIndex][3]);
-
-            Debug.Log("Actual hair index:" + _hairIndex);
         }
     }
 
@@ -117,8 +105,6 @@ public class HairControl : MonoBehaviour
         material.SetColor("_NewHairColor2", color2);
         material.SetColor("_NewHairColor3", color3);
         material.SetColor("_NewHairColor4", color4);
-        Debug.Log("Changed hair colors to: color1: " + _color1 + " | color2: "
-            + _color2 + " | color3: " + _color3 + " | color4: " + _color4);
     }
 
     public void ChangeSkinColor(string _color1, string _color2, string _color3,
@@ -135,8 +121,5 @@ public class HairControl : MonoBehaviour
         material.SetColor("_NewSkinColor3", color3);
         material.SetColor("_NewSkinColor4", color4);
         material.SetColor("_NewSkinColor5", color5);
-        Debug.Log("Changed skin colors to: color1: " + _color1 + " | color2: "
-            + _color2 + " | color3: " + _color3 + " | color4: " + _color4
-            + " | color5: " + _color5);
     }
 }
